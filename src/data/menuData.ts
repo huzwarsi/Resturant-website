@@ -84,6 +84,19 @@ export const menuItems: MenuItem[] = [
 
   // ESPECIALIDADES
   {
+    id: 'esp-trilogia',
+    name: 'Trilogía Mar y Tierra Imperial',
+    category: 'especialidades',
+    description: 'Plato estrella de concurso de @newyorkrestaurant_: corte fino de lomo al carbón, langostinos tigre glaseados y pesca fresca del Caribe en reducción del chef.',
+    price: 75000,
+    formattedPrice: '$75.000 COP',
+    image: 'https://images.unsplash.com/photo-1558030006-450675393462?auto=format&fit=crop&w=800&q=80',
+    badge: 'Festival Culinario 🏆',
+    isSpecialty: true,
+    portion: 'Plato Fuerte Especial',
+    cookingTime: '20-25 min',
+  },
+  {
     id: 'esp-1',
     name: 'Filet Mignon en Salsa de Champiñones',
     category: 'especialidades',

@@ -36,35 +36,39 @@ export const AboutSection: React.FC = () => {
           {/* Left Imagery Grid (Editorial Collage) */}
           <div className="lg:col-span-6 relative">
             <div className="grid grid-cols-12 gap-4">
-              {/* Main large image */}
+              {/* Main large image: Real Team Entrance */}
               <div className="col-span-8 overflow-hidden rounded-2xl border border-ny-border shadow-2xl relative group">
                 <img
-                  src={restaurantImages.interiorWarm}
-                  alt="Interior New York Restaurant Turbo"
-                  className="w-full h-80 sm:h-96 object-cover group-hover:scale-105 transition-transform duration-700"
+                  src={restaurantImages.teamEntrance}
+                  alt="Equipo New York Restaurant Turbo"
+                  className="w-full h-80 sm:h-96 object-cover object-top group-hover:scale-105 transition-transform duration-700"
                 />
-                <div className="absolute inset-0 bg-gradient-to-t from-black/80 via-transparent to-transparent"></div>
+                <div className="absolute inset-0 bg-gradient-to-t from-black/90 via-black/30 to-transparent"></div>
                 <div className="absolute bottom-4 left-4 right-4">
-                  <span className="text-xs uppercase tracking-wider text-ny-gold font-semibold">Salón Principal</span>
-                  <p className="text-sm text-ny-cream font-medium">Calidez, comodidad y elegancia en Turbo</p>
+                  <span className="text-xs uppercase tracking-wider text-ny-gold font-semibold">Familia New York</span>
+                  <p className="text-sm text-ny-cream font-medium">Nuestro equipo apasionado al servicio de Turbo</p>
                 </div>
               </div>
 
-              {/* Offset secondary image */}
+              {/* Offset secondary images: Real Birthday and Cocktail */}
               <div className="col-span-4 flex flex-col gap-4">
-                <div className="overflow-hidden rounded-xl border border-ny-border h-44 sm:h-48 group">
+                <div className="overflow-hidden rounded-xl border border-ny-border h-44 sm:h-48 group relative">
                   <img
-                    src={restaurantImages.diningFamily}
-                    alt="Celebraciones familiares"
+                    src={restaurantImages.birthdayFamily}
+                    alt="Celebraciones familiares reales"
                     className="w-full h-full object-cover group-hover:scale-110 transition-transform duration-500"
                   />
+                  <div className="absolute inset-0 bg-gradient-to-t from-black/70 via-transparent to-transparent"></div>
+                  <span className="absolute bottom-2 left-2 text-[10px] font-semibold text-ny-gold">Festejos</span>
                 </div>
-                <div className="overflow-hidden rounded-xl border border-ny-border h-32 sm:h-44 group">
+                <div className="overflow-hidden rounded-xl border border-ny-border h-32 sm:h-44 group relative">
                   <img
-                    src={restaurantImages.chefGrill}
-                    alt="Parrilla y cocina al fuego"
+                    src={restaurantImages.cocktailExperience}
+                    alt="Experiencia cóctel con fuego"
                     className="w-full h-full object-cover group-hover:scale-110 transition-transform duration-500"
                   />
+                  <div className="absolute inset-0 bg-gradient-to-t from-black/70 via-transparent to-transparent"></div>
+                  <span className="absolute bottom-2 left-2 text-[10px] font-semibold text-ny-gold">Bar de Autor</span>
                 </div>
               </div>
             </div>

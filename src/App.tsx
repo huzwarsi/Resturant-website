@@ -4,6 +4,7 @@ import { Hero } from './components/Hero';
 import { AboutSection } from './components/AboutSection';
 import { SpecialtiesSection } from './components/SpecialtiesSection';
 import { MenuSection } from './components/MenuSection';
+import { ReelsSection } from './components/ReelsSection';
 import { ExperienceSection } from './components/ExperienceSection';
 import { GallerySection } from './components/GallerySection';
 import { ReservationSection } from './components/ReservationSection';
@@ -32,7 +33,10 @@ export const App: React.FC = () => {
         {/* 4. Complete Featured Menu with Filters */}
         <MenuSection />
 
-        {/* 5. Restaurant Experience & Celebrations */}
+        {/* 5. Real Instagram Video Reels Showcase */}
+        <ReelsSection />
+
+        {/* 6. Restaurant Experience & Celebrations */}
         <ExperienceSection />
 
         {/* 6. Lightbox Gallery */}

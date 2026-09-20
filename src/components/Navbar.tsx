@@ -17,8 +17,9 @@ export const Navbar: React.FC = () => {
   const navLinks = [
     { name: 'Inicio', href: '#hero' },
     { name: 'Nosotros', href: '#about' },
-    { name: 'Menú', href: '#menu' },
     { name: 'Especialidades', href: '#specialties' },
+    { name: 'Menú', href: '#menu' },
+    { name: 'Videos', href: '#reels' },
     { name: 'Experiencia', href: '#experience' },
     { name: 'Galería', href: '#gallery' },
     { name: 'Reservas', href: '#reservations' },
